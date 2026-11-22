@@ -1,12 +1,12 @@
 {
-  "sessionKey": "agent:main:burst-take-b1795374000t10",
-  "sessionId": "d743f53e-dbb0-4949-b715-6a629893e1cc",
+  "sessionKey": "agent:main:burst-take-b1795375208t21",
+  "sessionId": "500210f3-104c-469a-ad50-f4593a538582",
   "messages": [
     {
       "role": "user",
       "content": "Quick status check.",
-      "timestamp": 1795374004452,
-      "idempotencyKey": "6ce6647d-5464-4374-aa9c-29aae8471e00:user",
+      "timestamp": 1795375211864,
+      "idempotencyKey": "5136b04e-0b0a-42aa-879f-78e8e988127d:user",
       "provenance": {
         "kind": "external_user"
       },
@@ -25,11 +25,11 @@
             }
           ]
         },
-        "id": "5dae0ad6-d7a0-4adf-9e79-0a2de090a34e",
-        "idempotencyKey": "6ce6647d-5464-4374-aa9c-29aae8471e00:user",
-        "recordTimestampMs": 1795374004482,
+        "id": "cc8e7062-b721-43e0-a894-b593dc996a54",
+        "idempotencyKey": "5136b04e-0b0a-42aa-879f-78e8e988127d:user",
+        "recordTimestampMs": 1795375211906,
         "transcriptPosition": {
-          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
+          "source": "8rl_wh6yGY6FotQx3h2dzi34bgHvzIbZFKPleEVa5YU",
           "rawSeq": 1
         },
         "seq": 1,
@@ -62,21 +62,21 @@
         }
       },
       "stopReason": "length",
-      "timestamp": 1795374004798,
-      "responseId": "chatcmpl-a23de94f-ab6b-42c0-823b-67ecb52c9a5d",
+      "timestamp": 1795375219402,
+      "responseId": "chatcmpl-93083d64-5849-4bb5-a6b6-2de2e29398f7",
       "openclawDelivery": {
         "textPhaseRequiresTerminal": true
       },
       "serverGeneration": {
-        "completionMs": 0.06974000000000001,
+        "completionMs": 0.154742,
         "outputTokens": 2
       },
       "__openclaw": {
-        "runId": "6ce6647d-5464-4374-aa9c-29aae8471e00",
-        "id": "0301fe59-88d2-467f-8841-2726b649cb39",
-        "recordTimestampMs": 1795374006173,
+        "runId": "5136b04e-0b0a-42aa-879f-78e8e988127d",
+        "id": "5a5242f3-5f7e-4cc2-8d41-67b0c1aa2fbf",
+        "recordTimestampMs": 1795375219783,
         "transcriptPosition": {
-          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
+          "source": "8rl_wh6yGY6FotQx3h2dzi34bgHvzIbZFKPleEVa5YU",
           "rawSeq": 4
         },
         "seq": 2
@@ -85,8 +85,8 @@
     {
       "role": "user",
       "content": "Quick status check.",
-      "timestamp": 1795374007602,
-      "idempotencyKey": "42872758-bc5f-48e0-b491-74dc372a564e:user",
+      "timestamp": 1795375221392,
+      "idempotencyKey": "8a0ae872-4ccd-44ae-8224-24b5684da695:user",
       "provenance": {
         "kind": "external_user"
       },
@@ -105,11 +105,11 @@
             }
           ]
         },
-        "id": "08df4ca3-82a9-45c9-ac01-9c8a0dac61fb",
-        "idempotencyKey": "42872758-bc5f-48e0-b491-74dc372a564e:user",
-        "recordTimestampMs": 1795374007637,
+        "id": "c3ebf084-15e1-4e3d-abd5-4603b7e5fd65",
+        "idempotencyKey": "8a0ae872-4ccd-44ae-8224-24b5684da695:user",
+        "recordTimestampMs": 1795375221436,
         "transcriptPosition": {
-          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
+          "source": "8rl_wh6yGY6FotQx3h2dzi34bgHvzIbZFKPleEVa5YU",
           "rawSeq": 5
         },
         "seq": 3,
@@ -142,21 +142,21 @@
         }
       },
       "stopReason": "length",
-      "timestamp": 1795374007875,
-      "responseId": "chatcmpl-8bff0ab0-9c56-46a7-ba91-110558de573d",
+      "timestamp": 1795375221680,
+      "responseId": "chatcmpl-8cde9e3c-4b9c-4a44-be56-dbfaf5e14184",
       "openclawDelivery": {
         "textPhaseRequiresTerminal": true
       },
       "serverGeneration": {
-        "completionMs": 0.541304,
+        "completionMs": 0.11309999999999999,
         "outputTokens": 2
       },
       "__openclaw": {
-        "runId": "42872758-bc5f-48e0-b491-74dc372a564e",
-        "id": "d754c5fc-ba7a-462b-9bd5-cdf1e91afeaa",
-        "recordTimestampMs": 1795374008891,
+        "runId": "8a0ae872-4ccd-44ae-8224-24b5684da695",
+        "id": "80f44a1b-3c10-4524-acff-de27e55cfdf4",
+        "recordTimestampMs": 1795375222306,
         "transcriptPosition": {
-          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
+          "source": "8rl_wh6yGY6FotQx3h2dzi34bgHvzIbZFKPleEVa5YU",
           "rawSeq": 6
         },
         "seq": 4
@@ -165,8 +165,8 @@
     {
       "role": "user",
       "content": "Quick status check.",
-      "timestamp": 1795374009911,
-      "idempotencyKey": "184f043f-c638-4d05-97a6-cfc338b86568:user",
+      "timestamp": 1795375223774,
+      "idempotencyKey": "122d026e-64a8-42dd-952e-9f752b5e1141:user",
       "provenance": {
         "kind": "external_user"
       },
@@ -185,11 +185,11 @@
             }
           ]
         },
-        "id": "a4b0ced5-2448-40fc-bf3f-2d1d6de0ce06",
-        "idempotencyKey": "184f043f-c638-4d05-97a6-cfc338b86568:user",
-        "recordTimestampMs": 1795374009943,
+        "id": "182b6162-01c4-48e7-b18a-39b5e7cdb561",
+        "idempotencyKey": "122d026e-64a8-42dd-952e-9f752b5e1141:user",
+        "recordTimestampMs": 1795375223802,
         "transcriptPosition": {
-          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
+          "source": "8rl_wh6yGY6FotQx3h2dzi34bgHvzIbZFKPleEVa5YU",
           "rawSeq": 7
         },
         "seq": 5,
@@ -222,21 +222,21 @@
         }
       },
       "stopReason": "length",
-      "timestamp": 1795374010196,
-      "responseId": "chatcmpl-aface2d9-d450-4bc2-8f3a-d2b53d0d5bfd",
+      "timestamp": 1795375223995,
+      "responseId": "chatcmpl-e872c661-5510-49ec-9ce1-f1fd9ba55825",
       "openclawDelivery": {
         "textPhaseRequiresTerminal": true
       },
       "serverGeneration": {
-        "completionMs": 0.642944,
+        "completionMs": 0.107902,
         "outputTokens": 2
       },
       "__openclaw": {
-        "runId": "184f043f-c638-4d05-97a6-cfc338b86568",
-        "id": "11c115af-3d32-41af-8e2b-b4b211342c32",
-        "recordTimestampMs": 1795374011047,
+        "runId": "122d026e-64a8-42dd-952e-9f752b5e1141",
+        "id": "26600fb4-ffda-4896-83e4-6618159a7075",
+        "recordTimestampMs": 1795375226125,
         "transcriptPosition": {
-          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
+          "source": "8rl_wh6yGY6FotQx3h2dzi34bgHvzIbZFKPleEVa5YU",
           "rawSeq": 8
         },
         "seq": 6
@@ -245,8 +245,8 @@
     {
       "role": "user",
       "content": "Quick status check.",
-      "timestamp": 1795374012309,
-      "idempotencyKey": "573da7b5-2360-40c9-810a-37e34b61fe2c:user",
+      "timestamp": 1795375227454,
+      "idempotencyKey": "33edf232-94a7-47b3-80f9-f657871cfa69:user",
       "provenance": {
         "kind": "external_user"
       },
@@ -265,11 +265,11 @@
             }
           ]
         },
-        "id": "24495d17-81ad-4abd-9146-54bef09fca8d",
-        "idempotencyKey": "573da7b5-2360-40c9-810a-37e34b61fe2c:user",
-        "recordTimestampMs": 1795374012340,
+        "id": "af2c3c0d-709c-489e-a196-e261ac7561e1",
+        "idempotencyKey": "33edf232-94a7-47b3-80f9-f657871cfa69:user",
+        "recordTimestampMs": 1795375227489,
         "transcriptPosition": {
-          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
+          "source": "8rl_wh6yGY6FotQx3h2dzi34bgHvzIbZFKPleEVa5YU",
           "rawSeq": 9
         },
         "seq": 7,
@@ -302,21 +302,21 @@
         }
       },
       "stopReason": "length",
-      "timestamp": 1795374012581,
-      "responseId": "chatcmpl-40f35a7d-12de-43f2-8ba7-855121aed416",
+      "timestamp": 1795375227730,
+      "responseId": "chatcmpl-96149a13-effa-4f75-9d39-0b904eacc2a4",
       "openclawDelivery": {
         "textPhaseRequiresTerminal": true
       },
       "serverGeneration": {
-        "completionMs": 0.05606,
+        "completionMs": 0.055279999999999996,
         "outputTokens": 2
       },
       "__openclaw": {
-        "runId": "573da7b5-2360-40c9-810a-37e34b61fe2c",
-        "id": "7aa89bd3-377c-43a6-8b9e-0d60932d904f",
-        "recordTimestampMs": 1795374012984,
+        "runId": "33edf232-94a7-47b3-80f9-f657871cfa69",
+        "id": "d03ac091-f16a-4214-b648-5675df3a00af",
+        "recordTimestampMs": 1795375230558,
         "transcriptPosition": {
-          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
+          "source": "8rl_wh6yGY6FotQx3h2dzi34bgHvzIbZFKPleEVa5YU",
           "rawSeq": 10
         },
         "seq": 8
@@ -324,9 +324,9 @@
     },
     {
       "role": "user",
-      "content": "Quick status check.",
-      "timestamp": 1795374014085,
-      "idempotencyKey": "b75b3245-be9b-4fde-8615-2de0967fac92:user",
+      "content": "Find five Christmas gifts from US retailers. Give me five direct product links.",
+      "timestamp": 1795375234792,
+      "idempotencyKey": "86462ac6-dc83-4461-ab9d-e82fa7aba621:user",
       "provenance": {
         "kind": "external_user"
       },
@@ -345,174 +345,14 @@
             }
           ]
         },
-        "id": "aa7d72c7-e9ee-4b42-a41f-93661eea3aa4",
-        "idempotencyKey": "b75b3245-be9b-4fde-8615-2de0967fac92:user",
-        "recordTimestampMs": 1795374014131,
+        "id": "b915b23c-9f32-4f35-9840-c5192316ca14",
+        "idempotencyKey": "86462ac6-dc83-4461-ab9d-e82fa7aba621:user",
+        "recordTimestampMs": 1795375234833,
         "transcriptPosition": {
-          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
+          "source": "8rl_wh6yGY6FotQx3h2dzi34bgHvzIbZFKPleEVa5YU",
           "rawSeq": 11
         },
         "seq": 9,
-        "senderProfileAvatarUrl": "/api/users/gateway-owner/avatar?v=1795373717274"
-      }
-    },
-    {
-      "role": "assistant",
-      "content": [
-        {
-          "type": "text",
-          "text": "I need"
-        }
-      ],
-      "api": "openai-completions",
-      "provider": "cerebras",
-      "model": "moonshotai-kimi-k3.1-pro-trial",
-      "usage": {
-        "input": 1048,
-        "output": 2,
-        "totalTokens": 3098,
-        "cacheRead": 2048,
-        "cacheWrite": 0,
-        "cost": {
-          "input": 0,
-          "output": 0,
-          "cacheRead": 0,
-          "cacheWrite": 0,
-          "total": 0
-        }
-      },
-      "stopReason": "length",
-      "timestamp": 1795374014384,
-      "responseId": "chatcmpl-43237e39-e8fd-418c-b1a5-37203a662045",
-      "openclawDelivery": {
-        "textPhaseRequiresTerminal": true
-      },
-      "serverGeneration": {
-        "completionMs": 0.6087640000000001,
-        "outputTokens": 2
-      },
-      "__openclaw": {
-        "runId": "b75b3245-be9b-4fde-8615-2de0967fac92",
-        "id": "210230d1-7390-41ad-9dd6-528f744885e6",
-        "recordTimestampMs": 1795374015301,
-        "transcriptPosition": {
-          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
-          "rawSeq": 12
-        },
-        "seq": 10
-      }
-    },
-    {
-      "role": "user",
-      "content": "Quick status check.",
-      "timestamp": 1795374016486,
-      "idempotencyKey": "1c9a3959-a9aa-47ad-ad37-6d41400023b3:user",
-      "provenance": {
-        "kind": "external_user"
-      },
-      "__openclaw": {
-        "senderIsOwner": true,
-        "senderId": "gateway-owner",
-        "senderIdentity": {
-          "type": "profile",
-          "id": "gateway-owner"
-        },
-        "transport": {
-          "clients": [
-            {
-              "id": "openclaw-control-ui",
-              "mode": "webchat"
-            }
-          ]
-        },
-        "id": "d90b508e-6a42-4223-8589-c7d6509eac8b",
-        "idempotencyKey": "1c9a3959-a9aa-47ad-ad37-6d41400023b3:user",
-        "recordTimestampMs": 1795374016522,
-        "transcriptPosition": {
-          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
-          "rawSeq": 13
-        },
-        "seq": 11,
-        "senderProfileAvatarUrl": "/api/users/gateway-owner/avatar?v=1795373717274"
-      }
-    },
-    {
-      "role": "assistant",
-      "content": [
-        {
-          "type": "text",
-          "text": "I need"
-        }
-      ],
-      "api": "openai-completions",
-      "provider": "cerebras",
-      "model": "moonshotai-kimi-k3.1-pro-trial",
-      "usage": {
-        "input": 1130,
-        "output": 2,
-        "totalTokens": 3180,
-        "cacheRead": 2048,
-        "cacheWrite": 0,
-        "cost": {
-          "input": 0,
-          "output": 0,
-          "cacheRead": 0,
-          "cacheWrite": 0,
-          "total": 0
-        }
-      },
-      "stopReason": "length",
-      "timestamp": 1795374016755,
-      "responseId": "chatcmpl-5009bfe7-3310-46cc-8e32-6898b1484a21",
-      "openclawDelivery": {
-        "textPhaseRequiresTerminal": true
-      },
-      "serverGeneration": {
-        "completionMs": 0.078,
-        "outputTokens": 2
-      },
-      "__openclaw": {
-        "runId": "1c9a3959-a9aa-47ad-ad37-6d41400023b3",
-        "id": "4a42216b-a59f-4450-91b1-29f80afe80c6",
-        "recordTimestampMs": 1795374019465,
-        "transcriptPosition": {
-          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
-          "rawSeq": 14
-        },
-        "seq": 12
-      }
-    },
-    {
-      "role": "user",
-      "content": "Find five Christmas gifts from US retailers. Give me five direct product links.",
-      "timestamp": 1795374023961,
-      "idempotencyKey": "2edf3457-190a-4cf1-a582-772a7489f89c:user",
-      "provenance": {
-        "kind": "external_user"
-      },
-      "__openclaw": {
-        "senderIsOwner": true,
-        "senderId": "gateway-owner",
-        "senderIdentity": {
-          "type": "profile",
-          "id": "gateway-owner"
-        },
-        "transport": {
-          "clients": [
-            {
-              "id": "openclaw-control-ui",
-              "mode": "webchat"
-            }
-          ]
-        },
-        "id": "8a8ce2b0-8415-4c70-8f8b-28ac197cbf78",
-        "idempotencyKey": "2edf3457-190a-4cf1-a582-772a7489f89c:user",
-        "recordTimestampMs": 1795374024018,
-        "transcriptPosition": {
-          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
-          "rawSeq": 15
-        },
-        "seq": 13,
         "senderProfileAvatarUrl": "/api/users/gateway-owner/avatar?v=1795373717274"
       }
     },
@@ -525,7 +365,7 @@
         },
         {
           "type": "toolCall",
-          "id": "8762928a2",
+          "id": "7fc40d61c",
           "name": "search_catalog",
           "arguments": {
             "queries": [
@@ -542,9 +382,9 @@
       "provider": "cerebras",
       "model": "moonshotai-kimi-k3.1-pro-trial",
       "usage": {
-        "input": 953,
+        "input": 789,
         "output": 82,
-        "totalTokens": 4107,
+        "totalTokens": 3943,
         "cacheRead": 3072,
         "cacheWrite": 0,
         "cost": {
@@ -556,29 +396,29 @@
         }
       },
       "stopReason": "toolUse",
-      "timestamp": 1795374050606,
-      "responseId": "chatcmpl-ca8fb54c-1c29-44fd-8c0d-e65070badf46",
+      "timestamp": 1795375244639,
+      "responseId": "chatcmpl-d5185808-077c-4280-afc7-8bd33724ee7d",
       "openclawDelivery": {
         "textPhaseRequiresTerminal": true
       },
       "serverGeneration": {
-        "completionMs": 108.046813,
+        "completionMs": 51.772779,
         "outputTokens": 82
       },
       "__openclaw": {
-        "runId": "2edf3457-190a-4cf1-a582-772a7489f89c",
-        "id": "1b8ac99a-9043-42bb-bc85-925f28fdeb45",
-        "recordTimestampMs": 1795374051115,
+        "runId": "86462ac6-dc83-4461-ab9d-e82fa7aba621",
+        "id": "97ce8a36-29b2-445a-b0e4-77deebe95347",
+        "recordTimestampMs": 1795375245374,
         "transcriptPosition": {
-          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
-          "rawSeq": 16
+          "source": "8rl_wh6yGY6FotQx3h2dzi34bgHvzIbZFKPleEVa5YU",
+          "rawSeq": 12
         },
-        "seq": 14
+        "seq": 10
       }
     },
     {
       "role": "toolResult",
-      "toolCallId": "8762928a2",
+      "toolCallId": "7fc40d61c",
       "toolName": "search_catalog",
       "content": [
         {
@@ -587,16 +427,16 @@
         }
       ],
       "isError": false,
-      "timestamp": 1795374051777,
+      "timestamp": 1795375245968,
       "__openclaw": {
-        "runId": "2edf3457-190a-4cf1-a582-772a7489f89c",
-        "id": "18982c67-ef23-4e38-b5a8-265443dcfa87",
-        "recordTimestampMs": 1795374051778,
+        "runId": "86462ac6-dc83-4461-ab9d-e82fa7aba621",
+        "id": "615dfe8a-e279-4a31-8227-2d3fb7eeeb3f",
+        "recordTimestampMs": 1795375245968,
         "transcriptPosition": {
-          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
-          "rawSeq": 17
+          "source": "8rl_wh6yGY6FotQx3h2dzi34bgHvzIbZFKPleEVa5YU",
+          "rawSeq": 13
         },
-        "seq": 15
+        "seq": 11
       }
     },
     {
@@ -615,9 +455,9 @@
       "provider": "cerebras",
       "model": "moonshotai-kimi-k3.1-pro-trial",
       "usage": {
-        "input": 1590,
+        "input": 1426,
         "output": 208,
-        "totalTokens": 4870,
+        "totalTokens": 4706,
         "cacheRead": 3072,
         "cacheWrite": 0,
         "cost": {
@@ -629,34 +469,34 @@
         }
       },
       "stopReason": "stop",
-      "timestamp": 1795374054224,
-      "responseId": "chatcmpl-6f516c23-3d56-4809-adf3-3d74b7e21ae2",
+      "timestamp": 1795375245982,
+      "responseId": "chatcmpl-d0d1e5ab-fcbc-4e8c-935b-6515afbc88ec",
       "openclawDelivery": {
         "textPhaseRequiresTerminal": true
       },
       "serverGeneration": {
-        "completionMs": 238.57455099999999,
+        "completionMs": 307.96790000000004,
         "outputTokens": 208
       },
       "__openclaw": {
-        "runId": "2edf3457-190a-4cf1-a582-772a7489f89c",
-        "id": "5e9d18f1-c532-443e-84b4-ff3b61b999f3",
-        "recordTimestampMs": 1795374058143,
+        "runId": "86462ac6-dc83-4461-ab9d-e82fa7aba621",
+        "id": "aa5a255e-fcce-4ef4-a78d-64b365092ca8",
+        "recordTimestampMs": 1795375247830,
         "transcriptPosition": {
-          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
-          "rawSeq": 19
+          "source": "8rl_wh6yGY6FotQx3h2dzi34bgHvzIbZFKPleEVa5YU",
+          "rawSeq": 15
         },
-        "seq": 16
+        "seq": 12
       }
     }
   ],
   "activity": [
     {
-      "messageId": "1b8ac99a-9043-42bb-bc85-925f28fdeb45",
+      "messageId": "97ce8a36-29b2-445a-b0e4-77deebe95347",
       "items": [
         {
-          "itemId": "tool:8762928a2",
-          "toolCallId": "8762928a2",
+          "itemId": "tool:7fc40d61c",
+          "toolCallId": "7fc40d61c",
           "name": "search_catalog",
           "kind": "tool",
           "phase": "end",
@@ -667,11 +507,11 @@
       ]
     },
     {
-      "messageId": "18982c67-ef23-4e38-b5a8-265443dcfa87",
+      "messageId": "615dfe8a-e279-4a31-8227-2d3fb7eeeb3f",
       "items": [
         {
-          "itemId": "tool:8762928a2",
-          "toolCallId": "8762928a2",
+          "itemId": "tool:7fc40d61c",
+          "toolCallId": "7fc40d61c",
           "name": "search_catalog",
           "kind": "tool",
           "phase": "end",
@@ -683,13 +523,13 @@
     }
   ],
   "hasMore": false,
-  "totalMessages": 16,
+  "totalMessages": 12,
   "pendingInputs": {
     "items": [],
     "total": 0,
     "queuedCount": 0
   },
-  "deltaCursor": "eyJhZ2VudElkIjoibWFpbiIsImdlbmVyYXRpb24iOiIwNTA5MmMxOGJmNTE0MjMwYmI3YmIxNTZmMWQ2YzVhYyIsImxhc3RTZXEiOjE5LCJzZXNzaW9uSWQiOiJkNzQzZjUzZS1kYmIwLTQ5NDktYjcxNS02YTYyOTg5M2UxY2MiLCJ2ZXJzaW9uIjoxfQ",
+  "deltaCursor": "eyJhZ2VudElkIjoibWFpbiIsImdlbmVyYXRpb24iOiI5M2JmZmU2YTFkMTE0ZjFmOGY5MWEzNmIxYzQxY2U3OCIsImxhc3RTZXEiOjE1LCJzZXNzaW9uSWQiOiI1MDAyMTBmMy0xMDRjLTQ2OWEtYWQ1MC1mNDU5M2E1Mzg1ODIiLCJ2ZXJzaW9uIjoxfQ",
   "defaults": {
     "modelProvider": "cerebras",
     "model": "moonshotai-kimi-k3.1-pro-trial",
@@ -704,8 +544,8 @@
     "modelSelectionTarget": "session"
   },
   "sessionInfo": {
-    "key": "agent:main:burst-take-b1795374000t10",
-    "sessionModelRevision": "ew3e7JO9u_zkshDzYue0bYKV3SUi1hM7RmW8FM2ir9E",
+    "key": "agent:main:burst-take-b1795375208t21",
+    "sessionModelRevision": "N5xpkbT7qvqtERVhWj5cxyYMOlHakeDaA5UTagI4RTI",
     "visibility": "shared",
     "permissionModePending": false,
     "spawnDepth": 0,
@@ -727,7 +567,7 @@
       }
     ],
     "participantCount": 1,
-    "createdAt": 1795374001365,
+    "createdAt": 1795375208845,
     "kind": "direct",
     "classification": "direct",
     "agentId": "main",
@@ -735,31 +575,31 @@
     "isDock": false,
     "isBackground": false,
     "chatType": "direct",
-    "updatedAt": 1795374058284,
+    "updatedAt": 1795375247932,
     "archived": false,
     "pinned": false,
     "unread": false,
-    "lastReadAt": 1795374058233,
-    "lastInteractionAt": 1795374024076,
-    "lastActivityAt": 1795374058184,
-    "sessionId": "d743f53e-dbb0-4949-b715-6a629893e1cc",
-    "lifecycleRevision": "402dc134-9159-4909-95bf-304ff6007308",
+    "lastReadAt": 1795375247938,
+    "lastInteractionAt": 1795375234892,
+    "lastActivityAt": 1795375247870,
+    "sessionId": "500210f3-104c-469a-ad50-f4593a538582",
+    "lifecycleRevision": "16cf04f4-459b-45d0-9db8-a9699c90e809",
     "systemSent": true,
     "abortedLastRun": false,
     "thinkingDefault": "low",
     "effectiveFastMode": false,
     "effectiveFastModeSource": "default",
     "fastAutoOnSeconds": 60,
-    "inputTokens": 2543,
+    "inputTokens": 2215,
     "outputTokens": 290,
-    "totalTokens": 4662,
+    "totalTokens": 4498,
     "totalTokensFresh": true,
     "estimatedCostUsd": 0,
     "status": "done",
-    "startedAt": 1795374024273,
-    "endedAt": 1795374058184,
-    "runtimeMs": 33911,
-    "lastRunId": "2edf3457-190a-4cf1-a582-772a7489f89c",
+    "startedAt": 1795375235097,
+    "endedAt": 1795375247870,
+    "runtimeMs": 12773,
+    "lastRunId": "86462ac6-dc83-4461-ab9d-e82fa7aba621",
     "parentSessionKey": "agent:main:main",
     "effectiveResponseUsage": "off",
     "effectiveQueueMode": "steer",
@@ -782,30 +622,30 @@
     "contextBudgetStatus": {
       "schemaVersion": 1,
       "source": "pre-prompt-estimate",
-      "updatedAt": 1795374024267,
+      "updatedAt": 1795375235090,
       "provider": "cerebras",
       "model": "moonshotai-kimi-k3.1-pro-trial",
       "route": "fits",
       "shouldCompact": false,
-      "estimatedPromptTokens": 6494,
+      "estimatedPromptTokens": 6330,
       "contextTokenBudget": 128000,
       "promptBudgetBeforeReserve": 108000,
       "reserveTokens": 20000,
       "effectiveReserveTokens": 20000,
-      "remainingPromptBudgetTokens": 101506,
+      "remainingPromptBudgetTokens": 101670,
       "overflowTokens": 0,
       "toolResultReducibleChars": 0,
-      "messageCount": 12,
-      "unwindowedMessageCount": 12,
-      "sessionId": "d743f53e-dbb0-4949-b715-6a629893e1cc"
+      "messageCount": 8,
+      "unwindowedMessageCount": 8,
+      "sessionId": "500210f3-104c-469a-ad50-f4593a538582"
     },
-    "snapshotAt": 1795374063507,
+    "snapshotAt": 1795375253322,
     "placement": {
       "state": "local",
       "generation": 0,
-      "createdAtMs": 1795374004694,
-      "updatedAtMs": 1795374058168,
-      "stateChangedAtMs": 1795374004694
+      "createdAtMs": 1795375212125,
+      "updatedAtMs": 1795375247864,
+      "stateChangedAtMs": 1795375212125
     },
     "activitySummary": {
       "state": "unavailable",
@@ -819,7 +659,7 @@
     "sendDisabledReason": null,
     "hasActiveRun": false,
     "activeRunIds": [],
-    "activeLeafEntryId": "5e9d18f1-c532-443e-84b4-ff3b61b999f3"
+    "activeLeafEntryId": "aa5a255e-fcce-4ef4-a78d-64b365092ca8"
   },
   "thinkingLevel": "low"
 }

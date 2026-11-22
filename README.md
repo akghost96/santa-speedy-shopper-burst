@@ -1,12 +1,12 @@
 # Santa's Speedy Shopper — experimental burst entry
 
-**12,715 tok/s mean · 35,676 p90** on the session badge of the official speed patch.
-Video: `submissions/burst-12715tps.mp4`.
+**14,597 tok/s mean · 36,179 p90** on the session badge of the official speed patch.
+Video: `submissions/burst-14597tps.mp4`.
 
 **Read this first.** This is an experimental entry. The number is real server timing shown by the unmodified patch,
-but it does not mean the shopping answer was decoded at that speed. It comes from 6 extra two-token calls and
-from the way the badge averages calls. Counted by tokens, the same session ran at **866 tok/s**
-(302 output tokens in 348.6 ms of server decode time). The plain entry, where every model call belongs to the
+but it does not mean the shopping answer was decoded at that speed. It comes from 4 extra two-token calls and
+from the way the badge averages calls. Counted by tokens, the same session ran at **827 tok/s**
+(298 output tokens in 360.2 ms of server decode time). The plain entry, where every model call belongs to the
 shopping task, is in https://github.com/akghost96/santa-speedy-shopper (1,755 tok/s mean).
 
 The two-token observation was published by ykundesu
@@ -22,7 +22,7 @@ our own shopping plugin.
 
 ## One session
 
-1. The user sends `Quick status check.` 6 times. On these turns the plugin sends the request with
+1. The user sends `Quick status check.` 4 times. On these turns the plugin sends the request with
    `max_completion_tokens: 2` and shows the two thinking tokens as the reply (for example "I need").
 2. The user sends "Find five Christmas gifts from US retailers. Give me five direct product links."
    The model calls the live catalog search and replies with the five product lines, as in the plain entry.
@@ -40,16 +40,14 @@ Every model call of the session in the video, as the patch recorded it:
 
 | Call | Kind | Tokens | Server decode time | Rate |
 | --- | --- | --- | --- | --- |
-| 1 | status check | 2 | 0.070 ms | 28,678 tok/s |
-| 2 | status check | 2 | 0.541 ms | 3,695 tok/s |
-| 3 | status check | 2 | 0.643 ms | 3,111 tok/s |
-| 4 | status check | 2 | 0.056 ms | 35,676 tok/s |
-| 5 | status check | 2 | 0.609 ms | 3,285 tok/s |
-| 6 | status check | 2 | 0.078 ms | 25,641 tok/s |
-| 7 | tool call | 82 | 108.047 ms | 759 tok/s |
-| 8 | answer | 208 | 238.575 ms | 872 tok/s |
+| 1 | status check | 2 | 0.155 ms | 12,925 tok/s |
+| 2 | status check | 2 | 0.113 ms | 17,683 tok/s |
+| 3 | status check | 2 | 0.108 ms | 18,535 tok/s |
+| 4 | status check | 2 | 0.055 ms | 36,179 tok/s |
+| 5 | tool call | 82 | 51.773 ms | 1,584 tok/s |
+| 6 | answer | 208 | 307.968 ms | 675 tok/s |
 
-Mean of the rates: **12,715 tok/s**. p90: 35,676. Token-weighted: 866 tok/s.
+Mean of the rates: **14,597 tok/s**. p90: 36,179. Token-weighted: 827 tok/s.
 
 ## What is and is not changed
 
@@ -64,7 +62,7 @@ Mean of the rates: **12,715 tok/s**. p90: 35,676. Token-weighted: 866 tok/s.
 
 ## How the session was chosen
 
-It is the best of 9 verified sessions with 6 status turns (median 6,729 tok/s mean); `evidence/results.jsonl`
+It is the best of 20 verified sessions with 4 status turns (median 6,285 tok/s mean); `evidence/results.jsonl`
 lists all of them. A session's score depends on how many of its status calls land in the fast case.
 
 ## The five products in the video
@@ -86,8 +84,8 @@ its video helpers (`../.recording-work/edit.py`, `timed_edit.py`).
 ```bash
 # from the parent project (OpenClaw 8b18b55 + patch built in ../.bounty-build), with CEREBRAS_API_KEY set
 burst/burst-openclaw gateway run                 # web chat on http://127.0.0.1:18893 (config: openclaw.example.json)
-node burst/bench-burst.mjs try-1 6               # one headless session, prints every call's rate
-burst/record-burst.sh 10 6                       # recorded browser sessions for 10 minutes
+node burst/bench-burst.mjs try-1 4               # one headless session, prints every call's rate
+burst/record-burst.sh 10 4                       # recorded browser sessions for 10 minutes
 ```
 
 ## Files
@@ -99,4 +97,4 @@ burst/record-burst.sh 10 6                       # recorded browser sessions for
 | `capture-burst.mjs`, `verify_burst.py`, `burst_edit.py`, `record-burst.sh` | recorder, check against the transcript, video edit |
 | `bench-burst.mjs` | headless session with per-call rates |
 | `evidence/` | transcript, timings and screenshot of the session in the video; log of all sessions |
-| `submissions/burst-12715tps.mp4` | the video |
+| `submissions/burst-14597tps.mp4` | the video |

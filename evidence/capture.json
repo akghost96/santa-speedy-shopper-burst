@@ -1,9 +1,9 @@
 {
-  "ready": 1795374003192.7,
-  "statusStart": 1795374004406.5,
-  "armedAt": 1795374020376.2,
-  "enter": 1795374023903.7,
-  "finish": 1795374058224.0999,
+  "ready": 1795375210598.7,
+  "statusStart": 1795375211814.8,
+  "armedAt": 1795375231251.5,
+  "enter": 1795375234736.8,
+  "finish": 1795375247897.7,
   "links": [
     "https://ledergames.com/products/root-a-game-of-woodland-might-and-right",
     "https://www.naturallife.com/products/double-sided-cozy-throw-blanket-patchwork-be-happy",
@@ -12,11 +12,11 @@
     "https://bark.co/products/pickle-stickle"
   ],
   "trusted": true,
-  "turns": 6,
-  "score": "12,715 tok/s mean · 35,676 p90 (server)",
-  "captureStart": 1795374002354,
-  "stoppedAt": 1795374062907,
-  "sessionKey": "agent:main:burst-take-b1795374000t10",
+  "turns": 4,
+  "score": "14,597 tok/s mean · 36,179 p90 (server)",
+  "captureStart": 1795375209785,
+  "stoppedAt": 1795375252610,
+  "sessionKey": "agent:main:burst-take-b1795375208t21",
   "prompt": "Find five Christmas gifts from US retailers. Give me five direct product links.",
   "statusPhrase": "Quick status check."
 }

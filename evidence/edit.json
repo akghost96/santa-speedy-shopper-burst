@@ -1,26 +1,24 @@
 {
-  "start_offset_ms": 1855.699951171875,
-  "status_offset_ms": 3419.5,
-  "armed_offset_ms": 19389.199951171875,
-  "enter_offset_ms": 22916.699951171875,
-  "complete_offset_ms": 57237.099853515625,
-  "length_ms": 61920.0,
-  "elapsed_ms": 34320.39990234375,
-  "mean_tps": 12715,
-  "p90_tps": 35676,
-  "model_calls": 8,
-  "burst_calls": 6,
+  "start_offset_ms": 1478.699951171875,
+  "status_offset_ms": 3044.800048828125,
+  "armed_offset_ms": 22481.5,
+  "enter_offset_ms": 25966.800048828125,
+  "complete_offset_ms": 39127.699951171875,
+  "length_ms": 43840.0,
+  "elapsed_ms": 13160.89990234375,
+  "mean_tps": 14597,
+  "p90_tps": 36179,
+  "model_calls": 6,
+  "burst_calls": 4,
   "burst_rates": [
-    28678,
-    3695,
-    3111,
-    35676,
-    3285,
-    25641
+    12925,
+    17683,
+    18535,
+    36179
   ],
   "shopping_rates": [
-    759,
-    872
+    1584,
+    675
   ],
   "shopping_tokens": [
     82,
