@@ -1,0 +1,124 @@
+{
+  "id": "santa-burst",
+  "name": "Santa Burst",
+  "description": "Santa Catalog shopping plugin plus an experimental two-token burst mode for status-check turns.",
+  "activation": {
+    "onStartup": true
+  },
+  "providers": [
+    "cerebras"
+  ],
+  "providerEndpoints": [
+    {
+      "endpointClass": "cerebras-native",
+      "hosts": [
+        "api.cerebras.ai"
+      ]
+    }
+  ],
+  "providerRequest": {
+    "providers": {
+      "cerebras": {
+        "family": "cerebras"
+      }
+    }
+  },
+  "contracts": {
+    "tools": [
+      "search_catalog"
+    ]
+  },
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "firstCallToolChoice": {
+        "type": "string",
+        "enum": [
+          "required",
+          "auto"
+        ]
+      },
+      "maxCompletionTokens": {
+        "type": "integer",
+        "minimum": 64
+      },
+      "payloadLog": {
+        "type": "string"
+      },
+      "promptHint": {
+        "type": "boolean"
+      },
+      "fewShot": {
+        "type": "boolean"
+      },
+      "scriptedThoughts": {
+        "type": "boolean"
+      },
+      "resultFormat": {
+        "type": "string",
+        "enum": [
+          "lines",
+          "json"
+        ]
+      },
+      "payloadDump": {
+        "type": "string"
+      },
+      "queueRetry": {
+        "type": "boolean"
+      },
+      "queueRetryAttempts": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "queueRetryDelayMs": {
+        "type": "integer",
+        "minimum": 100
+      },
+      "queueStallMs": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "thoughtCall": {
+        "type": "string"
+      },
+      "thoughtAnswer": {
+        "type": "string"
+      },
+      "preambleCall": {
+        "type": "string"
+      },
+      "exampleTurns": {
+        "type": "integer",
+        "enum": [
+          1,
+          2
+        ]
+      },
+      "resultCopies": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 6
+      },
+      "burst": {
+        "type": "boolean"
+      },
+      "burstUserPrefix": {
+        "type": "string"
+      },
+      "burstMaxTokens": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 64
+      }
+    }
+  },
+  "toolMetadata": {
+    "search_catalog": {
+      "profiles": [
+        "minimal"
+      ]
+    }
+  }
+}

@@ -1,0 +1,825 @@
+{
+  "sessionKey": "agent:main:burst-take-b1795374000t10",
+  "sessionId": "d743f53e-dbb0-4949-b715-6a629893e1cc",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Quick status check.",
+      "timestamp": 1795374004452,
+      "idempotencyKey": "6ce6647d-5464-4374-aa9c-29aae8471e00:user",
+      "provenance": {
+        "kind": "external_user"
+      },
+      "__openclaw": {
+        "senderIsOwner": true,
+        "senderId": "gateway-owner",
+        "senderIdentity": {
+          "type": "profile",
+          "id": "gateway-owner"
+        },
+        "transport": {
+          "clients": [
+            {
+              "id": "openclaw-control-ui",
+              "mode": "webchat"
+            }
+          ]
+        },
+        "id": "5dae0ad6-d7a0-4adf-9e79-0a2de090a34e",
+        "idempotencyKey": "6ce6647d-5464-4374-aa9c-29aae8471e00:user",
+        "recordTimestampMs": 1795374004482,
+        "transcriptPosition": {
+          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
+          "rawSeq": 1
+        },
+        "seq": 1,
+        "senderProfileAvatarUrl": "/api/users/gateway-owner/avatar?v=1795373717274"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "I need"
+        }
+      ],
+      "api": "openai-completions",
+      "provider": "cerebras",
+      "model": "moonshotai-kimi-k3.1-pro-trial",
+      "usage": {
+        "input": 720,
+        "output": 2,
+        "totalTokens": 2770,
+        "cacheRead": 2048,
+        "cacheWrite": 0,
+        "cost": {
+          "input": 0,
+          "output": 0,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "total": 0
+        }
+      },
+      "stopReason": "length",
+      "timestamp": 1795374004798,
+      "responseId": "chatcmpl-a23de94f-ab6b-42c0-823b-67ecb52c9a5d",
+      "openclawDelivery": {
+        "textPhaseRequiresTerminal": true
+      },
+      "serverGeneration": {
+        "completionMs": 0.06974000000000001,
+        "outputTokens": 2
+      },
+      "__openclaw": {
+        "runId": "6ce6647d-5464-4374-aa9c-29aae8471e00",
+        "id": "0301fe59-88d2-467f-8841-2726b649cb39",
+        "recordTimestampMs": 1795374006173,
+        "transcriptPosition": {
+          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
+          "rawSeq": 4
+        },
+        "seq": 2
+      }
+    },
+    {
+      "role": "user",
+      "content": "Quick status check.",
+      "timestamp": 1795374007602,
+      "idempotencyKey": "42872758-bc5f-48e0-b491-74dc372a564e:user",
+      "provenance": {
+        "kind": "external_user"
+      },
+      "__openclaw": {
+        "senderIsOwner": true,
+        "senderId": "gateway-owner",
+        "senderIdentity": {
+          "type": "profile",
+          "id": "gateway-owner"
+        },
+        "transport": {
+          "clients": [
+            {
+              "id": "openclaw-control-ui",
+              "mode": "webchat"
+            }
+          ]
+        },
+        "id": "08df4ca3-82a9-45c9-ac01-9c8a0dac61fb",
+        "idempotencyKey": "42872758-bc5f-48e0-b491-74dc372a564e:user",
+        "recordTimestampMs": 1795374007637,
+        "transcriptPosition": {
+          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
+          "rawSeq": 5
+        },
+        "seq": 3,
+        "senderProfileAvatarUrl": "/api/users/gateway-owner/avatar?v=1795373717274"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "I need"
+        }
+      ],
+      "api": "openai-completions",
+      "provider": "cerebras",
+      "model": "moonshotai-kimi-k3.1-pro-trial",
+      "usage": {
+        "input": 802,
+        "output": 2,
+        "totalTokens": 2852,
+        "cacheRead": 2048,
+        "cacheWrite": 0,
+        "cost": {
+          "input": 0,
+          "output": 0,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "total": 0
+        }
+      },
+      "stopReason": "length",
+      "timestamp": 1795374007875,
+      "responseId": "chatcmpl-8bff0ab0-9c56-46a7-ba91-110558de573d",
+      "openclawDelivery": {
+        "textPhaseRequiresTerminal": true
+      },
+      "serverGeneration": {
+        "completionMs": 0.541304,
+        "outputTokens": 2
+      },
+      "__openclaw": {
+        "runId": "42872758-bc5f-48e0-b491-74dc372a564e",
+        "id": "d754c5fc-ba7a-462b-9bd5-cdf1e91afeaa",
+        "recordTimestampMs": 1795374008891,
+        "transcriptPosition": {
+          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
+          "rawSeq": 6
+        },
+        "seq": 4
+      }
+    },
+    {
+      "role": "user",
+      "content": "Quick status check.",
+      "timestamp": 1795374009911,
+      "idempotencyKey": "184f043f-c638-4d05-97a6-cfc338b86568:user",
+      "provenance": {
+        "kind": "external_user"
+      },
+      "__openclaw": {
+        "senderIsOwner": true,
+        "senderId": "gateway-owner",
+        "senderIdentity": {
+          "type": "profile",
+          "id": "gateway-owner"
+        },
+        "transport": {
+          "clients": [
+            {
+              "id": "openclaw-control-ui",
+              "mode": "webchat"
+            }
+          ]
+        },
+        "id": "a4b0ced5-2448-40fc-bf3f-2d1d6de0ce06",
+        "idempotencyKey": "184f043f-c638-4d05-97a6-cfc338b86568:user",
+        "recordTimestampMs": 1795374009943,
+        "transcriptPosition": {
+          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
+          "rawSeq": 7
+        },
+        "seq": 5,
+        "senderProfileAvatarUrl": "/api/users/gateway-owner/avatar?v=1795373717274"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "I need"
+        }
+      ],
+      "api": "openai-completions",
+      "provider": "cerebras",
+      "model": "moonshotai-kimi-k3.1-pro-trial",
+      "usage": {
+        "input": 884,
+        "output": 2,
+        "totalTokens": 2934,
+        "cacheRead": 2048,
+        "cacheWrite": 0,
+        "cost": {
+          "input": 0,
+          "output": 0,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "total": 0
+        }
+      },
+      "stopReason": "length",
+      "timestamp": 1795374010196,
+      "responseId": "chatcmpl-aface2d9-d450-4bc2-8f3a-d2b53d0d5bfd",
+      "openclawDelivery": {
+        "textPhaseRequiresTerminal": true
+      },
+      "serverGeneration": {
+        "completionMs": 0.642944,
+        "outputTokens": 2
+      },
+      "__openclaw": {
+        "runId": "184f043f-c638-4d05-97a6-cfc338b86568",
+        "id": "11c115af-3d32-41af-8e2b-b4b211342c32",
+        "recordTimestampMs": 1795374011047,
+        "transcriptPosition": {
+          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
+          "rawSeq": 8
+        },
+        "seq": 6
+      }
+    },
+    {
+      "role": "user",
+      "content": "Quick status check.",
+      "timestamp": 1795374012309,
+      "idempotencyKey": "573da7b5-2360-40c9-810a-37e34b61fe2c:user",
+      "provenance": {
+        "kind": "external_user"
+      },
+      "__openclaw": {
+        "senderIsOwner": true,
+        "senderId": "gateway-owner",
+        "senderIdentity": {
+          "type": "profile",
+          "id": "gateway-owner"
+        },
+        "transport": {
+          "clients": [
+            {
+              "id": "openclaw-control-ui",
+              "mode": "webchat"
+            }
+          ]
+        },
+        "id": "24495d17-81ad-4abd-9146-54bef09fca8d",
+        "idempotencyKey": "573da7b5-2360-40c9-810a-37e34b61fe2c:user",
+        "recordTimestampMs": 1795374012340,
+        "transcriptPosition": {
+          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
+          "rawSeq": 9
+        },
+        "seq": 7,
+        "senderProfileAvatarUrl": "/api/users/gateway-owner/avatar?v=1795373717274"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "I need"
+        }
+      ],
+      "api": "openai-completions",
+      "provider": "cerebras",
+      "model": "moonshotai-kimi-k3.1-pro-trial",
+      "usage": {
+        "input": 966,
+        "output": 2,
+        "totalTokens": 3016,
+        "cacheRead": 2048,
+        "cacheWrite": 0,
+        "cost": {
+          "input": 0,
+          "output": 0,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "total": 0
+        }
+      },
+      "stopReason": "length",
+      "timestamp": 1795374012581,
+      "responseId": "chatcmpl-40f35a7d-12de-43f2-8ba7-855121aed416",
+      "openclawDelivery": {
+        "textPhaseRequiresTerminal": true
+      },
+      "serverGeneration": {
+        "completionMs": 0.05606,
+        "outputTokens": 2
+      },
+      "__openclaw": {
+        "runId": "573da7b5-2360-40c9-810a-37e34b61fe2c",
+        "id": "7aa89bd3-377c-43a6-8b9e-0d60932d904f",
+        "recordTimestampMs": 1795374012984,
+        "transcriptPosition": {
+          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
+          "rawSeq": 10
+        },
+        "seq": 8
+      }
+    },
+    {
+      "role": "user",
+      "content": "Quick status check.",
+      "timestamp": 1795374014085,
+      "idempotencyKey": "b75b3245-be9b-4fde-8615-2de0967fac92:user",
+      "provenance": {
+        "kind": "external_user"
+      },
+      "__openclaw": {
+        "senderIsOwner": true,
+        "senderId": "gateway-owner",
+        "senderIdentity": {
+          "type": "profile",
+          "id": "gateway-owner"
+        },
+        "transport": {
+          "clients": [
+            {
+              "id": "openclaw-control-ui",
+              "mode": "webchat"
+            }
+          ]
+        },
+        "id": "aa7d72c7-e9ee-4b42-a41f-93661eea3aa4",
+        "idempotencyKey": "b75b3245-be9b-4fde-8615-2de0967fac92:user",
+        "recordTimestampMs": 1795374014131,
+        "transcriptPosition": {
+          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
+          "rawSeq": 11
+        },
+        "seq": 9,
+        "senderProfileAvatarUrl": "/api/users/gateway-owner/avatar?v=1795373717274"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "I need"
+        }
+      ],
+      "api": "openai-completions",
+      "provider": "cerebras",
+      "model": "moonshotai-kimi-k3.1-pro-trial",
+      "usage": {
+        "input": 1048,
+        "output": 2,
+        "totalTokens": 3098,
+        "cacheRead": 2048,
+        "cacheWrite": 0,
+        "cost": {
+          "input": 0,
+          "output": 0,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "total": 0
+        }
+      },
+      "stopReason": "length",
+      "timestamp": 1795374014384,
+      "responseId": "chatcmpl-43237e39-e8fd-418c-b1a5-37203a662045",
+      "openclawDelivery": {
+        "textPhaseRequiresTerminal": true
+      },
+      "serverGeneration": {
+        "completionMs": 0.6087640000000001,
+        "outputTokens": 2
+      },
+      "__openclaw": {
+        "runId": "b75b3245-be9b-4fde-8615-2de0967fac92",
+        "id": "210230d1-7390-41ad-9dd6-528f744885e6",
+        "recordTimestampMs": 1795374015301,
+        "transcriptPosition": {
+          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
+          "rawSeq": 12
+        },
+        "seq": 10
+      }
+    },
+    {
+      "role": "user",
+      "content": "Quick status check.",
+      "timestamp": 1795374016486,
+      "idempotencyKey": "1c9a3959-a9aa-47ad-ad37-6d41400023b3:user",
+      "provenance": {
+        "kind": "external_user"
+      },
+      "__openclaw": {
+        "senderIsOwner": true,
+        "senderId": "gateway-owner",
+        "senderIdentity": {
+          "type": "profile",
+          "id": "gateway-owner"
+        },
+        "transport": {
+          "clients": [
+            {
+              "id": "openclaw-control-ui",
+              "mode": "webchat"
+            }
+          ]
+        },
+        "id": "d90b508e-6a42-4223-8589-c7d6509eac8b",
+        "idempotencyKey": "1c9a3959-a9aa-47ad-ad37-6d41400023b3:user",
+        "recordTimestampMs": 1795374016522,
+        "transcriptPosition": {
+          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
+          "rawSeq": 13
+        },
+        "seq": 11,
+        "senderProfileAvatarUrl": "/api/users/gateway-owner/avatar?v=1795373717274"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "I need"
+        }
+      ],
+      "api": "openai-completions",
+      "provider": "cerebras",
+      "model": "moonshotai-kimi-k3.1-pro-trial",
+      "usage": {
+        "input": 1130,
+        "output": 2,
+        "totalTokens": 3180,
+        "cacheRead": 2048,
+        "cacheWrite": 0,
+        "cost": {
+          "input": 0,
+          "output": 0,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "total": 0
+        }
+      },
+      "stopReason": "length",
+      "timestamp": 1795374016755,
+      "responseId": "chatcmpl-5009bfe7-3310-46cc-8e32-6898b1484a21",
+      "openclawDelivery": {
+        "textPhaseRequiresTerminal": true
+      },
+      "serverGeneration": {
+        "completionMs": 0.078,
+        "outputTokens": 2
+      },
+      "__openclaw": {
+        "runId": "1c9a3959-a9aa-47ad-ad37-6d41400023b3",
+        "id": "4a42216b-a59f-4450-91b1-29f80afe80c6",
+        "recordTimestampMs": 1795374019465,
+        "transcriptPosition": {
+          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
+          "rawSeq": 14
+        },
+        "seq": 12
+      }
+    },
+    {
+      "role": "user",
+      "content": "Find five Christmas gifts from US retailers. Give me five direct product links.",
+      "timestamp": 1795374023961,
+      "idempotencyKey": "2edf3457-190a-4cf1-a582-772a7489f89c:user",
+      "provenance": {
+        "kind": "external_user"
+      },
+      "__openclaw": {
+        "senderIsOwner": true,
+        "senderId": "gateway-owner",
+        "senderIdentity": {
+          "type": "profile",
+          "id": "gateway-owner"
+        },
+        "transport": {
+          "clients": [
+            {
+              "id": "openclaw-control-ui",
+              "mode": "webchat"
+            }
+          ]
+        },
+        "id": "8a8ce2b0-8415-4c70-8f8b-28ac197cbf78",
+        "idempotencyKey": "2edf3457-190a-4cf1-a582-772a7489f89c:user",
+        "recordTimestampMs": 1795374024018,
+        "transcriptPosition": {
+          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
+          "rawSeq": 15
+        },
+        "seq": 13,
+        "senderProfileAvatarUrl": "/api/users/gateway-owner/avatar?v=1795373717274"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "thinking",
+          "thinking": "I must call search_catalog immediately with exact queries."
+        },
+        {
+          "type": "toolCall",
+          "id": "8762928a2",
+          "name": "search_catalog",
+          "arguments": {
+            "queries": [
+              "board game",
+              "cozy throw blanket",
+              "scented candle",
+              "coffee gift set",
+              "dog toy"
+            ]
+          }
+        }
+      ],
+      "api": "openai-completions",
+      "provider": "cerebras",
+      "model": "moonshotai-kimi-k3.1-pro-trial",
+      "usage": {
+        "input": 953,
+        "output": 82,
+        "totalTokens": 4107,
+        "cacheRead": 3072,
+        "cacheWrite": 0,
+        "cost": {
+          "input": 0,
+          "output": 0,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "total": 0
+        }
+      },
+      "stopReason": "toolUse",
+      "timestamp": 1795374050606,
+      "responseId": "chatcmpl-ca8fb54c-1c29-44fd-8c0d-e65070badf46",
+      "openclawDelivery": {
+        "textPhaseRequiresTerminal": true
+      },
+      "serverGeneration": {
+        "completionMs": 108.046813,
+        "outputTokens": 82
+      },
+      "__openclaw": {
+        "runId": "2edf3457-190a-4cf1-a582-772a7489f89c",
+        "id": "1b8ac99a-9043-42bb-bc85-925f28fdeb45",
+        "recordTimestampMs": 1795374051115,
+        "transcriptPosition": {
+          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
+          "rawSeq": 16
+        },
+        "seq": 14
+      }
+    },
+    {
+      "role": "toolResult",
+      "toolCallId": "8762928a2",
+      "toolName": "search_catalog",
+      "content": [
+        {
+          "type": "text",
+          "text": "1. [Root: A Game of Woodland Might and Right](https://ledergames.com/products/root-a-game-of-woodland-might-and-right) \u2014 Leder Games\n2. [Double-Sided Cozy Throw Blanket - Patchwork Be Happy](https://www.naturallife.com/products/double-sided-cozy-throw-blanket-patchwork-be-happy) \u2014 Natural Life\n3. [Maple Butter 3-Wick Candle](https://goosecreek.com/products/maple-butter-large-3-wick-candle) \u2014 Goose Creek Candle\n4. [Right Roast Sampler Gift Basket](https://www.coffeebeanery.com/products/the-right-roast-sampler-gift-basket) \u2014 Coffee Beanery\n5. [Pickle Stickle Super Chewer Durable Gnaw Dog Toy](https://bark.co/products/pickle-stickle) \u2014 BARK\n\nReply with exactly these lines:\n1. [Root: A Game of Woodland Might and Right](https://ledergames.com/products/root-a-game-of-woodland-might-and-right) \u2014 Leder Games\n2. [Double-Sided Cozy Throw Blanket - Patchwork Be Happy](https://www.naturallife.com/products/double-sided-cozy-throw-blanket-patchwork-be-happy) \u2014 Natural Life\n3. [Maple Butter 3-Wick Candle](https://goosecreek.com/products/maple-butter-large-3-wick-candle) \u2014 Goose Creek Candle\n4. [Right Roast Sampler Gift Basket](https://www.coffeebeanery.com/products/the-right-roast-sampler-gift-basket) \u2014 Coffee Beanery\n5. [Pickle Stickle Super Chewer Durable Gnaw Dog Toy](https://bark.co/products/pickle-stickle) \u2014 BARK\n\nReply with exactly these lines:\n1. [Root: A Game of Woodland Might and Right](https://ledergames.com/products/root-a-game-of-woodland-might-and-right) \u2014 Leder Games\n2. [Double-Sided Cozy Throw Blanket - Patchwork Be Happy](https://www.naturallife.com/products/double-sided-cozy-throw-blanket-patchwork-be-happy) \u2014 Natural Life\n3. [Maple Butter 3-Wick Candle](https://goosecreek.com/products/maple-butter-large-3-wick-candle) \u2014 Goose Creek Candle\n4. [Right Roast Sampler Gift Basket](https://www.coffeebeanery.com/products/the-right-roast-sampler-gift-basket) \u2014 Coffee Beanery\n5. [Pickle Stickle Super Chewer Durable Gnaw Dog Toy](https://bark.co/products/pickle-stickle) \u2014 BARK"
+        }
+      ],
+      "isError": false,
+      "timestamp": 1795374051777,
+      "__openclaw": {
+        "runId": "2edf3457-190a-4cf1-a582-772a7489f89c",
+        "id": "18982c67-ef23-4e38-b5a8-265443dcfa87",
+        "recordTimestampMs": 1795374051778,
+        "transcriptPosition": {
+          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
+          "rawSeq": 17
+        },
+        "seq": 15
+      }
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "thinking",
+          "thinking": "I must copy the result lines verbatim."
+        },
+        {
+          "type": "text",
+          "text": "1. [Root: A Game of Woodland Might and Right](https://ledergames.com/products/root-a-game-of-woodland-might-and-right) \u2014 Leder Games\n2. [Double-Sided Cozy Throw Blanket - Patchwork Be Happy](https://www.naturallife.com/products/double-sided-cozy-throw-blanket-patchwork-be-happy) \u2014 Natural Life\n3. [Maple Butter 3-Wick Candle](https://goosecreek.com/products/maple-butter-large-3-wick-candle) \u2014 Goose Creek Candle\n4. [Right Roast Sampler Gift Basket](https://www.coffeebeanery.com/products/the-right-roast-sampler-gift-basket) \u2014 Coffee Beanery\n5. [Pickle Stickle Super Chewer Durable Gnaw Dog Toy](https://bark.co/products/pickle-stickle) \u2014 BARK"
+        }
+      ],
+      "api": "openai-completions",
+      "provider": "cerebras",
+      "model": "moonshotai-kimi-k3.1-pro-trial",
+      "usage": {
+        "input": 1590,
+        "output": 208,
+        "totalTokens": 4870,
+        "cacheRead": 3072,
+        "cacheWrite": 0,
+        "cost": {
+          "input": 0,
+          "output": 0,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "total": 0
+        }
+      },
+      "stopReason": "stop",
+      "timestamp": 1795374054224,
+      "responseId": "chatcmpl-6f516c23-3d56-4809-adf3-3d74b7e21ae2",
+      "openclawDelivery": {
+        "textPhaseRequiresTerminal": true
+      },
+      "serverGeneration": {
+        "completionMs": 238.57455099999999,
+        "outputTokens": 208
+      },
+      "__openclaw": {
+        "runId": "2edf3457-190a-4cf1-a582-772a7489f89c",
+        "id": "5e9d18f1-c532-443e-84b4-ff3b61b999f3",
+        "recordTimestampMs": 1795374058143,
+        "transcriptPosition": {
+          "source": "nmA3sLJCE7VRCduMpiPVxUkBIV2mPkzvJzfXKtrn9j4",
+          "rawSeq": 19
+        },
+        "seq": 16
+      }
+    }
+  ],
+  "activity": [
+    {
+      "messageId": "1b8ac99a-9043-42bb-bc85-925f28fdeb45",
+      "items": [
+        {
+          "itemId": "tool:8762928a2",
+          "toolCallId": "8762928a2",
+          "name": "search_catalog",
+          "kind": "tool",
+          "phase": "end",
+          "title": "Search Catalog",
+          "status": "completed",
+          "commandBearing": false
+        }
+      ]
+    },
+    {
+      "messageId": "18982c67-ef23-4e38-b5a8-265443dcfa87",
+      "items": [
+        {
+          "itemId": "tool:8762928a2",
+          "toolCallId": "8762928a2",
+          "name": "search_catalog",
+          "kind": "tool",
+          "phase": "end",
+          "title": "Search Catalog",
+          "status": "completed",
+          "commandBearing": false
+        }
+      ]
+    }
+  ],
+  "hasMore": false,
+  "totalMessages": 16,
+  "pendingInputs": {
+    "items": [],
+    "total": 0,
+    "queuedCount": 0
+  },
+  "deltaCursor": "eyJhZ2VudElkIjoibWFpbiIsImdlbmVyYXRpb24iOiIwNTA5MmMxOGJmNTE0MjMwYmI3YmIxNTZmMWQ2YzVhYyIsImxhc3RTZXEiOjE5LCJzZXNzaW9uSWQiOiJkNzQzZjUzZS1kYmIwLTQ5NDktYjcxNS02YTYyOTg5M2UxY2MiLCJ2ZXJzaW9uIjoxfQ",
+  "defaults": {
+    "modelProvider": "cerebras",
+    "model": "moonshotai-kimi-k3.1-pro-trial",
+    "contextTokens": null,
+    "agentRuntime": {
+      "id": "auto",
+      "cloudPlacementSupported": false,
+      "devicePlacementSupported": false,
+      "source": "implicit"
+    },
+    "thinkingDefault": "low",
+    "modelSelectionTarget": "session"
+  },
+  "sessionInfo": {
+    "key": "agent:main:burst-take-b1795374000t10",
+    "sessionModelRevision": "ew3e7JO9u_zkshDzYue0bYKV3SUi1hM7RmW8FM2ir9E",
+    "visibility": "shared",
+    "permissionModePending": false,
+    "spawnDepth": 0,
+    "createdVia": "operator",
+    "participants": [
+      {
+        "identity": {
+          "type": "profile",
+          "id": "gateway-owner"
+        }
+      }
+    ],
+    "expandedParticipants": [
+      {
+        "identity": {
+          "type": "profile",
+          "id": "gateway-owner"
+        }
+      }
+    ],
+    "participantCount": 1,
+    "createdAt": 1795374001365,
+    "kind": "direct",
+    "classification": "direct",
+    "agentId": "main",
+    "isMain": false,
+    "isDock": false,
+    "isBackground": false,
+    "chatType": "direct",
+    "updatedAt": 1795374058284,
+    "archived": false,
+    "pinned": false,
+    "unread": false,
+    "lastReadAt": 1795374058233,
+    "lastInteractionAt": 1795374024076,
+    "lastActivityAt": 1795374058184,
+    "sessionId": "d743f53e-dbb0-4949-b715-6a629893e1cc",
+    "lifecycleRevision": "402dc134-9159-4909-95bf-304ff6007308",
+    "systemSent": true,
+    "abortedLastRun": false,
+    "thinkingDefault": "low",
+    "effectiveFastMode": false,
+    "effectiveFastModeSource": "default",
+    "fastAutoOnSeconds": 60,
+    "inputTokens": 2543,
+    "outputTokens": 290,
+    "totalTokens": 4662,
+    "totalTokensFresh": true,
+    "estimatedCostUsd": 0,
+    "status": "done",
+    "startedAt": 1795374024273,
+    "endedAt": 1795374058184,
+    "runtimeMs": 33911,
+    "lastRunId": "2edf3457-190a-4cf1-a582-772a7489f89c",
+    "parentSessionKey": "agent:main:main",
+    "effectiveResponseUsage": "off",
+    "effectiveQueueMode": "steer",
+    "modelProvider": "cerebras",
+    "model": "moonshotai-kimi-k3.1-pro-trial",
+    "modelOverrideSource": null,
+    "runtimeSelectionLocked": false,
+    "agentRuntime": {
+      "id": "openclaw",
+      "cloudPlacementSupported": true,
+      "cloudPlacementExecutionMode": "worker-turn",
+      "devicePlacement": {
+        "requiredNodeCommands": [],
+        "consumesWorkerSlot": true
+      },
+      "devicePlacementSupported": true,
+      "source": "implicit"
+    },
+    "contextTokens": 128000,
+    "contextBudgetStatus": {
+      "schemaVersion": 1,
+      "source": "pre-prompt-estimate",
+      "updatedAt": 1795374024267,
+      "provider": "cerebras",
+      "model": "moonshotai-kimi-k3.1-pro-trial",
+      "route": "fits",
+      "shouldCompact": false,
+      "estimatedPromptTokens": 6494,
+      "contextTokenBudget": 128000,
+      "promptBudgetBeforeReserve": 108000,
+      "reserveTokens": 20000,
+      "effectiveReserveTokens": 20000,
+      "remainingPromptBudgetTokens": 101506,
+      "overflowTokens": 0,
+      "toolResultReducibleChars": 0,
+      "messageCount": 12,
+      "unwindowedMessageCount": 12,
+      "sessionId": "d743f53e-dbb0-4949-b715-6a629893e1cc"
+    },
+    "snapshotAt": 1795374063507,
+    "placement": {
+      "state": "local",
+      "generation": 0,
+      "createdAtMs": 1795374004694,
+      "updatedAtMs": 1795374058168,
+      "stateChangedAtMs": 1795374004694
+    },
+    "activitySummary": {
+      "state": "unavailable",
+      "canEnsure": true
+    },
+    "hasBoard": false,
+    "childOwnerSessionKeys": [
+      "agent:main:main"
+    ],
+    "sharingRole": "owner",
+    "sendDisabledReason": null,
+    "hasActiveRun": false,
+    "activeRunIds": [],
+    "activeLeafEntryId": "5e9d18f1-c532-443e-84b4-ff3b61b999f3"
+  },
+  "thinkingLevel": "low"
+}

@@ -1,0 +1,109 @@
+{
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "cerebras/moonshotai-kimi-k3.1-pro-trial"
+      },
+      "thinkingDefault": "low",
+      "workspace": "<project>/.burst-state/workspace",
+      "skipBootstrap": true,
+      "skills": [],
+      "reasoningDefault": "off",
+      "models": {
+        "cerebras/moonshotai-kimi-k3.1-pro-trial": {
+          "params": {
+            "temperature": 0
+          }
+        }
+      },
+      "heartbeat": {
+        "every": "0m"
+      },
+      "maxConcurrent": 8
+    }
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "cerebras": {
+        "baseUrl": "https://api.cerebras.ai/v1",
+        "api": "openai-completions",
+        "apiKey": "${CEREBRAS_API_KEY}",
+        "models": [
+          {
+            "id": "moonshotai-kimi-k3.1-pro-trial",
+            "name": "Kimi K3.1 Pro (Cerebras)",
+            "reasoning": true,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "compat": {
+              "supportsTools": true,
+              "supportsStrictMode": false,
+              "supportsReasoningEffort": true,
+              "supportedReasoningEfforts": [
+                "low",
+                "high",
+                "max"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "tools": {
+    "profile": "minimal",
+    "allow": [
+      "search_catalog"
+    ],
+    "codeMode": {
+      "enabled": false
+    },
+    "toolSearch": false
+  },
+  "plugins": {
+    "allow": [
+      "santa-burst"
+    ],
+    "load": {
+      "paths": [
+        "<project>/burst/santa-burst"
+      ]
+    },
+    "entries": {
+      "santa-burst": {
+        "enabled": true,
+        "config": {
+          "firstCallToolChoice": "required",
+          "maxCompletionTokens": 1024,
+          "fewShot": true,
+          "scriptedThoughts": true,
+          "resultFormat": "lines",
+          "queueStallMs": 8000,
+          "queueRetryDelayMs": 2200,
+          "queueRetryAttempts": 400,
+          "burst": true,
+          "burstUserPrefix": "Quick status check.",
+          "burstMaxTokens": 2
+        }
+      }
+    }
+  },
+  "gateway": {
+    "port": 18893,
+    "bind": "loopback",
+    "mode": "local",
+    "auth": {
+      "mode": "token",
+      "token": "<any long random string>"
+    }
+  }
+}

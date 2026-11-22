@@ -1,0 +1,12 @@
+# Recorder scratch: raw recordings, per-session files, headless runs.
+/raw/
+/takes/
+/runs/
+/capture-*/
+/best.json
+/results.jsonl
+/record-run-*.log
+/.stop
+__pycache__/
+/submissions/*
+!/submissions/burst-12715tps.mp4
