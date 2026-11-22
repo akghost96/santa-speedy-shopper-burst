@@ -62,7 +62,7 @@ Mean of the rates: **14,597 tok/s**. p90: 36,179. Token-weighted: 827 tok/s.
 
 ## How the session was chosen
 
-It is the best of 20 verified sessions with 4 status turns (median 6,285 tok/s mean); `evidence/results.jsonl`
+It is the best of 139 verified sessions with 4 status turns (median 6,801 tok/s mean); `evidence/results.jsonl`
 lists all of them. A session's score depends on how many of its status calls land in the fast case.
 
 ## The five products in the video
